@@ -1,0 +1,30 @@
+.welcome-main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-main-container .header {
+  animation-name: welcome;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes welcome {
+  0% {
+    text-shadow: 0px 0px 3px #00000024;
+  }
+  /* 25% {
+    text-shadow: 5px 7px 3px #00000024;
+  } */
+  50% {
+    text-shadow: 5px 7px 3px #00000024;
+  }
+  /* 75% {
+    text-shadow: 5px 7px 3px #00000024;
+  } */
+  100% {
+    text-shadow: 0px 0px 3px #00000024;
+  }
+}

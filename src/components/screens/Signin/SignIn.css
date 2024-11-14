@@ -1,0 +1,96 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signin-border-container {
+  padding: 2em;
+  border: dashed 1px #00000054;
+  border-radius: 5px;
+}
+
+.signin-wrapper {
+  margin-bottom: 0.5em;
+}
+
+.signin-sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.signin-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.header-button.signup-button {
+  background-color: #2cb67d;
+  width: 100%;
+}
+
+.signup-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signin-button-container.signup-button-container .back-button-signup {
+  padding: 10px;
+  justify-content: center;
+}
+
+.arrow-image {
+  width: 15px;
+}
+
+.back-button-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  width: 4em;
+}
+
+.header-wrapper {
+  background-color: #e45858;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 20px #00000021;
+}
+
+.header-button {
+  border: 0;
+  background-color: #6246ea;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+}
+
+.header-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.header-button:active {
+  transform: scale(1);
+}
+
+.header-image {
+  width: 40px;
+}
+
+.signin-input-email-container.input-container {
+  margin-bottom: 10px;
+}
+.signin-input-password-container {
+  margin-bottom: 10px;
+}

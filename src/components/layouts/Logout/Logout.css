@@ -1,0 +1,53 @@
+.logout-wrapper {
+  border: 2px solid #0000001a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  position: relative;
+}
+
+.logout-image {
+  width: 33px;
+  height: 30px;
+}
+
+.ellipsis-image {
+  width: 20px;
+}
+
+.logout-image-container {
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.logout-image-name-wrapper {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.logout-image-name-wrapper .header-text {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.ellipsis-image {
+  cursor: pointer;
+}
+
+.logout-button-container.header-3 {
+  font-size: 1.5em;
+  font-weight: 900;
+  border: 2px solid #0000001a;
+  padding: 10px;
+}
+
+.logout-button-container {
+  position: absolute;
+  top: -85%;
+  right: -30%;
+  background-color: #fff;
+  cursor: pointer;
+}

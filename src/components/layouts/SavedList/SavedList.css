@@ -1,0 +1,20 @@
+.saved-list-header.header-3 {
+  font-size: 3em;
+  color: #000;
+}
+
+.header-text.saved-list-description {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.header-3.saved-list-description {
+  color: #000;
+}
+
+.saved-list-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  margin-top: 2em;
+}

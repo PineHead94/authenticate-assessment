@@ -1,0 +1,12 @@
+.search-input-image.passowrd-input-image {
+  margin-right: 1em;
+  width: 25px;
+}
+
+.search-input-container {
+  width: 100%;
+}
+
+.navlayout-wrapper .search-input-container {
+  margin-bottom: 1em;
+}

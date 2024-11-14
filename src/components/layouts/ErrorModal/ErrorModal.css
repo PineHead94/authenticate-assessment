@@ -1,0 +1,33 @@
+.error-modal {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -15%;
+  right: -5%;
+  border-radius: 20%;
+}
+
+.error-modal-container {
+  background-color: #fff;
+  position: absolute;
+  bottom: -100%;
+  right: 2em;
+  box-shadow: 0 10px 20px #00000021;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  transition: all ease 0.3s;
+  border-radius: 5px;
+}
+
+.error-modal-container.error-modal-container-open {
+  bottom: 1em;
+  transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 425px) {
+  .error-modal-text.header-2 {
+    font-size: 1.5em;
+  }
+}

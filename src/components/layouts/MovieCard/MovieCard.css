@@ -1,0 +1,40 @@
+.movie-card-container {
+  position: relative;
+  max-width: 200px;
+  box-shadow: 7px 8px 15px #0000001a;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all ease 0.1s;
+}
+
+.movie-card-image {
+  width: 200px;
+}
+
+.movie-detail-container .header-3 {
+  color: #000000c7;
+  font-size: 1em;
+}
+
+.movie-year-text.header-3 {
+  color: #0000005c;
+}
+
+.movie-name-text.header-3 {
+  margin-bottom: 5px;
+}
+
+.save-image {
+  position: absolute;
+  top: -2px;
+  left: -12px;
+  cursor: pointer;
+}
+
+.movie-detail-container {
+  padding: 0 0.5em 0.5em 0.5em;
+}
+
+.movie-card-container:hover {
+  transform: scale(1.05);
+}
